@@ -24,11 +24,12 @@ html, body {
   position: absolute;
   color: #fff;
   top: 14rem;
-  left: 50%;
+  left: 40%;
   z-index: 9999;
 
   margin-bottom: .2rem;
   font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -42,6 +43,7 @@ html, body {
   font-size: 220%;
   margin-bottom: .2rem;
   font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
 
 
 }
@@ -60,19 +62,19 @@ h1 {
       z-index: 9999;
       font-size: 220%;
 margin-bottom: .2rem;
+font-family: 'Roboto', sans-serif;
 
      }
 .jquery-script-ads {
   position: absolute;
   color: #fff;
   top: 20rem;
-  left: 43%;
+  left: 51%;
   z-index: 9999;
   font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
    }
-.jquery-script-ads h2{
-  color: #fff;
-}
+
 .typer {
   color: #16c0f0!important;
 
@@ -87,4 +89,51 @@ margin-bottom: .2rem;
   border-width: 1px;
   border-right: #16c0f0;
 
+}
+.bt{
+  position: absolute;
+color: #fff;
+top: 24rem;
+left: 55%;
+z-index: 9999;
+font-size: 1.2rem;
+
+}
+.bt a{
+  color: #fff;
+  padding: .5rem .7rem;
+text-decoration: none !important;
+}
+.bt  a:hover{
+  color: white;
+
+  font-weight: italic;
+transition-delay:1s;
+
+}
+footer {
+    background: #323232 !important;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+}
+
+.social-links .row{
+  max-width: 25%;
+  margin: 0 auto;
+  width: 90%;
+}
+.foot_clearfix{
+
+}
+.social-links{
+  margin-bottom: 1rem;
+}
+.social-links i{
+  color: white;
+  font-size: 2rem;
+
+}
+.foot_clearfix .logo{
+  font-size: 1.5rem;
 }
