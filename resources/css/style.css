@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#site-landing {
+    position:relative;
+    height: 40rem;
+    width: 100%;
+    background-image: linear-gradient(to top, #191919 0%, #000 100%);
+}
+
+.logo  p{
+  position: absolute;
+  color: #fff;
+  top: 3rem;
+  left: 2em;
+  z-index: 9999;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.container p{
+  position: absolute;
+  color: #fff;
+  top: 14rem;
+  left: 50%;
+  z-index: 9999;
+
+  margin-bottom: .2rem;
+  font-size: 1.5rem;
+
+}
+
+
+.container h1{
+  position: absolute;
+  color: #fff;
+  top: 16.5rem;
+  left: 44%;
+  z-index: 9999;
+  font-size: 220%;
+  margin-bottom: .2rem;
+  font-size: 2.5rem;
+
+
+}
+
+
+
+.logo span {
+    color: #16c0f0;
+}
+
+h1 {
+  position: absolute;
+   color: #000;
+    top: 100px;
+     left: 50%;
+      z-index: 9999;
+      font-size: 220%;
+margin-bottom: .2rem;
+
+     }
+.jquery-script-ads {
+  position: absolute;
+  color: #fff;
+  top: 20rem;
+  left: 43%;
+  z-index: 9999;
+  font-size: 1.5rem;
+   }
+.jquery-script-ads h2{
+  color: #fff;
+}
+.typer {
+  color: #16c0f0!important;
+
+}
+.cursor{
+    color: #16c0f0!important;
+}
+
+.btn btn-default {
+  background-color: transparent;
+
+  border-width: 1px;
+  border-right: #16c0f0;
+
+}
