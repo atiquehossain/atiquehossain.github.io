@@ -131,7 +131,16 @@ footer {
 }
 .social-links i{
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
+    transition:  1s;
+
+}
+.social-links i:hover{
+  color:#16c0f0;
+
+  transform:rotate(360deg);
+
+
 
 }
 .foot_clearfix .logo{
