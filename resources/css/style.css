@@ -224,7 +224,8 @@ nav ul li a {
       nav ul {
             max-height: 0px;
             background: #000;
-                        z-index: 100000000;
+            z-index: 10000;
+            padding: 0;
       }
 
       nav.black ul {
