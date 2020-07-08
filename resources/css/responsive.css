@@ -1,4 +1,4 @@
-@media(max-width: 786px) {
+@media(max-width: 930px) {
 
   .container p {
     position: absolute;
@@ -60,7 +60,7 @@
       }
 
       nav.black ul {
-            background: #000;
+            background: rgba(0, 0, 0, 0.7);
             z-index: 100000000;
       }
 
@@ -78,6 +78,25 @@
       .menu-icon {
             display: block;
       }
+.menu-icon :a visited{
+line-height: 60px;
+width: 100%;
+background: #000;
+text-align: right;
+box-sizing: border-box;
+padding: 15px 24px;
+cursor: pointer;
+color: #fff;
+      }
+
+      .social-links .row {
+        max-width: 100%;
+        margin: 0 auto;
+        width: 90%;
+        width: 80%;
+      }
+
+
     }
 
 @media(max-width: 668px){
