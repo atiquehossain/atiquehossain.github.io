@@ -60,7 +60,7 @@
       }
 
       nav.black ul {
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.8);
             z-index: 100000000;
       }
 
@@ -212,6 +212,11 @@ color: #fff;
     z-index: 9999;
     font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
+}
+.card-title h2 {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 }
