@@ -294,6 +294,10 @@ nav ul li a {
 .projectSection h2{
   color: white;
 }
+.projectSection .card{
+  color: #16C0F0;
+  background: #323232;
+}
 
 
 
