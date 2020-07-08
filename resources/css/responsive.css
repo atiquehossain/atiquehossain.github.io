@@ -189,6 +189,11 @@ color: #fff;
     z-index: 9999;
     font-size: 1.2rem;
 }
+.card-title h2 {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
 
 
 }
@@ -213,11 +218,7 @@ color: #fff;
     font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
 }
-.card-title h2 {
-    color: white;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-}
+
 
 }
 
