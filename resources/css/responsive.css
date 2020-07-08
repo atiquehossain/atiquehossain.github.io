@@ -213,7 +213,7 @@
 .jquery-script-ads {
     position: absolute;
     color: #fff;
-    top: 21rem;
+    top: 19rem;
     left: 19%;
     z-index: 9999;
     font-size: 1rem;
@@ -223,8 +223,8 @@
 .bt {
     position: absolute;
     color: #fff;
-    top: 25rem;
-    left: 32%;
+    top: 22rem;
+    left: 31%;
     z-index: 9999;
     font-size: 1.2rem;
 }
