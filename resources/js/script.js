@@ -29,3 +29,7 @@ $(document).ready(function() {
                  $('nav').removeClass('black');
            }
      })
+
+     $(document).ready(function(){
+       var mixer =mixitup('.cardfilter');
+     });

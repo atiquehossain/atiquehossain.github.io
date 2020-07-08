@@ -1,6 +1,16 @@
+@media(max-width: 465px) {
+  .projectSection {
+      text-align: center;
+      padding: 1rem;
+      background-color: #252525;
+  }
+
+}
+
+
 @media(max-width: 930px) {
 
-  .container p {
+.head-container p {
     position: absolute;
     color: #fff;
     top: 14rem;
@@ -101,7 +111,7 @@ color: #fff;
 
 @media(max-width: 668px){
 
-  .container p {
+.head-container p {
     position: absolute;
     color: #fff;
     top: 14rem;
@@ -148,7 +158,7 @@ color: #fff;
 
 @media(max-width: 552px){
 
-  .container p {
+.head-container p {
     position: absolute;
     color: #fff;
     top: 14rem;
@@ -189,11 +199,15 @@ color: #fff;
     z-index: 9999;
     font-size: 1.3rem;
 }
-.card-title h2 {
+ h2 {
     color: white;
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
+.project-filter button {
+
+    padding: .5rem .4rem;
+
 
 
 }
@@ -224,7 +238,7 @@ color: #fff;
 
 @media(max-width: 431px){
 
-  .container p {
+.head-container p {
     position: absolute;
     color: #fff;
     top: 14rem;
@@ -278,7 +292,7 @@ color: #fff;
 
 @media(max-width: 368px){
 
-  .container p {
+.head-container p {
     position: absolute;
     color: #fff;
     top: 14rem;
@@ -320,6 +334,11 @@ font-family: 'Roboto', sans-serif;
     z-index: 9999;
     font-size: 1.2rem;
 }
+
+.project-filter button {
+
+    padding: .5rem .3rem;
+
 
 
 
