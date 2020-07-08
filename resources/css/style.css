@@ -167,7 +167,7 @@ nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
-      z-index: 1000;
+
 }
 
 nav ul {
@@ -196,6 +196,11 @@ nav ul li {
 }
 
 nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+.menu ul li a:hover {
       text-decoration: none;
       color: #fff;
       font-size: 16px;
