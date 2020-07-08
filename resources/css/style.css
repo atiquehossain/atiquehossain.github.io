@@ -304,8 +304,12 @@ nav ul li a {
 .projectSection .card{
   color: #16C0F0;
   background: #323232;
+   transition: transform .5s;
 }
 
+ .projectSection .card:hover {
+  transform: scale(1.1);
+}
 
 
 
