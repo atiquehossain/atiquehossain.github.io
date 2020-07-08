@@ -4,6 +4,9 @@ html, body {
     margin: 0;
 }
 
+/*========================*/
+/*head start */
+/*========================*/
 #site-landing {
     position:relative;
     height: 40rem;
@@ -112,6 +115,9 @@ text-decoration: none !important;
 transition-delay:1s;
 
 }
+.hover-1 a:hover{
+  color: #16c0f0;
+}
 footer {
     background: #323232 !important;
     padding: 1rem 0;
@@ -217,3 +223,45 @@ nav ul li a {
       color: #fff;
       display: none;
 }
+
+
+
+/*========================*/
+/*head start */
+/*========================*/
+
+
+
+
+/*========================*/
+/* contact start*/
+/*========================*/
+.contact_section{
+  padding: 2rem 3rem 3rem 3rem;
+  background-color: #252525;
+}
+.card-title h2{
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.col-sm-3{
+  text-align: center;
+}
+.col-sm-3 .card{
+  background: #2c3e50;
+  color: white;
+  margin-bottom: 1rem;
+}
+.card-body i{
+font-size: 3rem;
+padding: 1rem;
+}
+.card-body h5{
+font-size: 1rem;
+
+}
+
+/*========================*/
+/* contact end*/
+/*========================*/
