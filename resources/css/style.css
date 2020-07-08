@@ -7,6 +7,12 @@ html, body {
 h2{
     font-family: 'Roboto', sans-serif;
 }
+p{
+  font-family: 'Raleway', sans-serif;
+}
+h5{
+  font-family: 'Raleway', sans-serif;
+}
 h2:after{
   content: "";
   display: block;
@@ -267,7 +273,7 @@ nav ul li a {
   background: #2c3e50;
   color: white;
   margin-bottom: 1rem;
-  font-family: 'Noto Sans JP', sans-serif;
+
 }
 .card-body i{
 font-size: 3rem;
