@@ -446,8 +446,83 @@ margin-bottom: 0.5rem;
 /*========================*/
 
 
+/*========================*/
+/* gameanime start*/
+/*========================*/
+.gameanime{
+
+justify-content: center;
+align-self: center;
+min-height: 100vh;
+background: #222;
+  box-sizing: border-box;
+  color: white;
+  padding: 5rem;
+
+}
+
+.morecontainer{
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: minmax(100px,auto);
+    margin: 40px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+
+}
+
+.morecontainer .morebox
+{
+  background: #333;
+  padding: 20px;
+  display: grid;
+  font-size: 20px;
+  place-item:center;
+  text-align: center;
+  transition: 0.5s;
+
+}
+
+.morecontainer .morebox:hover
+{
+  background: #e91e63;
+}
+
+.morecontainer .morebox img{
+  position: relative;
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.morecontainer .morebox:nth-child(1){
+  grid-column: span 2;
+  grid-row: span 1;
+
+}
+.morecontainer .morebox:nth-child(2){
+  grid-column: span 1;
+    grid-row: span 2;
+
+}
+.morecontainer .morebox:nth-child(4){
+  grid-column: span 1;
+    grid-row: span 2;
+
+}
+.morecontainer .morebox:nth-child(1){
+  grid-column: span 2;
+    grid-row: span 1;
+
+}
 
 
+
+
+/*========================*/
+/* gameanime end*/
+/*========================*/
 
 
 
@@ -484,3 +559,21 @@ font-size: 1rem;
 /*========================*/
 /* contact end*/
 /*========================*/
+
+
+
+
+
+
+
+
+
+/**************************
+* Media Queries
+***************************/
+/**************************
+* Import style
+***************************/
+/**************************
+*  Cursor
+***************************/
