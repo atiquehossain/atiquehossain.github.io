@@ -284,10 +284,23 @@ color: white;
    text-align: center;
    background-color: #252525;
 }
-.aboutRow .span_1_of_3{
+.aboutRow .aboutmedeviedOne{
   margin: 0;
   float: left;
   width: 30.26%;
+}
+.aboutmedeviedtwo{
+  margin: 0;
+  float: left;
+  width: 30.26%;
+
+}
+
+.aboutmedeviedthree{
+  margin: 0;
+  float: left;
+  width: 30.26%;
+
 }
 .aboud_me {
   padding: 2rem;
