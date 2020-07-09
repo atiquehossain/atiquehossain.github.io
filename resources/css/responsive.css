@@ -215,6 +215,10 @@ color: #fff;
 
 
 @media(max-width: 472px){
+.container  h2{
+font-size: 1.5rem;
+margin-top: 2rem;
+  }
 
 
 .social-links .row {
