@@ -36,8 +36,40 @@ $(document).ready(function() {
 
      // ========================================================================= //
 
-//      [ Cursor Animation ]
+//      [ inspact element disable ]
     // ========================================================================= //
+
+    document.onkeydown = function(e) {
+      if(event.keyCode == 123) {
+        location.href = "https://github.com/atiquehossain";
+         return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+
+         location.href = "https://github.com/atiquehossain";
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        location.href = "https://github.com/atiquehossain";
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        console.log('You cannot inspect Element');
+        return false;
+      }
+      if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        location.href = "https://github.com/atiquehossain";
+
+        return false;
+      }
+      if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+        location.href = "https://github.com/atiquehossain";
+
+        return false;
+      }
+    }
+    // prevents right clicking
+    document.addEventListener('contextmenu', e => e.preventDefault().  alert("right click disable"));
 
 
 
