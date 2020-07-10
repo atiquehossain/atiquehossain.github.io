@@ -7,11 +7,23 @@
 
 }
 
-@media (max-width:991px) {
+@media(max-width: 1238px){
+  .btn-primary {
+margin-bottom: 1rem;
+
+  }
+  .card-link {
+    margin-left: 1.25rem;
+}
+
+}
+
+@media (max-width:992px) {
   .morecontainer{
   grid-template-columns: repeat(auto-fill,minmax(50%,1fr));
   grid-template-rows: minmax(auto,auto);
 }
+
 
 .morebox{
   grid-column: unset !important;
@@ -460,4 +472,11 @@ font-family: 'Roboto', sans-serif;
 
 
 
+}
+
+@media(max-width: 992px){
+.span_1_of_3 {
+    width: 42.26%;
+    margin: 1rem 1rem;
+}
 }

@@ -810,6 +810,13 @@ width: 42.26%;
 margin: 1rem 1rem;
 }
 }
+
+@media(max-width: 992px){
+.span_1_of_3 {
+    width: 42.26%;
+    margin: 1rem 1rem;
+}
+}
 @media(max-width: 978px) {
 .span_1_of_3{
 width: 42.26%;
