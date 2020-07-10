@@ -19,6 +19,29 @@
 
   }
 
+  .aboutRow .aboutmedeviedOne {
+    margin: 0;
+    float: none;
+    width: 100%;
+}
+.title h3 {
+  background: #323232;
+
+    padding: 1rem 0;
+     }
+#aboutMe{
+  height: 27rem;
+}
+.aboutmedeviedtwo{
+  width: 43.26%;
+margin-left: 2rem;
+}
+.aboutmedeviedthree{
+  width: 43.26%;
+margin-left: 2rem;
+
+}
+
 }
 
 
@@ -123,7 +146,29 @@ color: #fff;
 
     }
 
+
+
+@media(max-width: 800px) {
+#aboutMe{
+    height: 44rem !important;
+
+}
+
+  .aboutmedeviedtwo {
+      width: 100%;
+      padding: 2rem;
+  }
+  .aboutmedeviedthree{
+    width: 75%;
+    padding: 0 2rem;
+
+  }
+
+
+}
+
 @media(max-width: 668px){
+
 
 .head-container p {
     position: absolute;
@@ -174,6 +219,18 @@ color: #fff;
 
 
 @media(max-width: 552px){
+  .aboutmedeviedtwo {
+    width: 100%;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+  .aboutmedeviedthree {
+
+    width: 90%;
+    padding: 2rem;
+
+}
+
 
 .head-container p {
     position: absolute;
@@ -264,6 +321,7 @@ margin-top: 2rem;
 
 @media(max-width: 431px){
 
+
 .head-container p {
     position: absolute;
     color: #fff;
@@ -316,6 +374,29 @@ margin-top: 2rem;
     text-decoration: none !important;
     font-size: 1rem;
 }
+
+#aboutMe {
+    height: 47rem !important;
+}
+
+.aboutmedeviedtwo {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+}
+
+.aboutmedeviedthree {
+    width: 94%;
+    padding: 2rem;
+
+    padding: 1rem;
+    margin: auto;
+
+    margin-left: 1rem;
+
+}
+
+
 
 
 }
