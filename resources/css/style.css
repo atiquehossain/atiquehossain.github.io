@@ -475,19 +475,24 @@ background: #222;
 
 .morecontainer .morebox
 {
-  background: #333;
+
+      background: linear-gradient(to right, #44a08d, #093637); 
   padding: 20px;
   display: grid;
   font-size: 20px;
   place-item:center;
   text-align: center;
-  transition: 0.5s;
+  transition: 1s;
+
 
 }
 
 .morecontainer .morebox:hover
 {
-  background: #e91e63;
+
+background: #1b4f72 ;
+color:white;
+
 }
 
 .morecontainer .morebox img{
