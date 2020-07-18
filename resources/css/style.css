@@ -208,7 +208,7 @@ nav {
       line-height: 60px;
 
 }
-
+/* */
 nav ul {
       line-height: 3rem;
       list-style: none;
@@ -476,7 +476,7 @@ background: #222;
 .morecontainer .morebox
 {
 
-      background: linear-gradient(to right, #44a08d, #093637); 
+      background: linear-gradient(to right, #44a08d, #093637);
   padding: 20px;
   display: grid;
   font-size: 20px;
