@@ -69,10 +69,11 @@ $(document).ready(function() {
       }
     }
     // prevents right clicking
-    document.addEventListener('contextmenu', e => e.preventDefault().  alert("right click disable"));
+   // document.addEventListener('contextmenu', e => e.preventDefault().  alert("right click disable"));
 
 
 
 
 
     // ========================================================================= //
+

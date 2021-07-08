@@ -358,7 +358,7 @@ margin-bottom: 0.5rem;
     align-items: center;
     font-size: 110%;
 }
-..box .social-media a{
+.box .social-media a{
   color: white;
 }
 
@@ -383,6 +383,41 @@ margin-bottom: 0.5rem;
 /*========================*/
 /* about end*/
 /*========================*/
+
+/*========================*/
+/* visit start*/
+/*========================*/
+
+
+
+
+.visit{
+
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: white;
+  background-color:   #44a08d;
+  font: 20px Arial, sans-serif;
+  
+
+}
+.CounterVisitor{
+  
+  display: inline-block;
+}
+.visit p{
+  margin: 10px 0;
+ 
+}
+
+/*========================*/
+/* visit end*/
+/*========================*/
+
 
 
 /*========================*/
@@ -582,3 +617,4 @@ font-size: 1rem;
 /**************************
 *  Cursor
 ***************************/
+
