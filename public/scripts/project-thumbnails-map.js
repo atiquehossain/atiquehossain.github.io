@@ -1,1 +1,1 @@
-const s="/assets/CvtZik3e.webp",a="/assets/DLxdzn7u.webp",t="/assets/DIGpZ4hD.webp",e="/assets/I7XCiFFZ.webp",b="/assets/DP4RDRoZ.webp";export{a,b,t as c,e as d,s as t};
+const s="/assets/automation_project.png",a="/assets/AI_project_.png",t="/assets/web_application_development_.png",e="/assets/I7XCiFFZ.webp",b="/assets/mobile_app_development.png";export{a,b,t as c,e as d,s as t};

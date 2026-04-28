@@ -1,2 +1,11 @@
 /* Readable stylesheet entrypoint wrapper. */
 @import url("/assets/BoPt0IX0.css");
+
+body .footer-credits-music[data-v-0c3f9611] {
+  display: none !important;
+}
+
+body .projects-cards .preview-card {
+  cursor: default;
+  pointer-events: none;
+}

@@ -1,2 +1,30 @@
-﻿import{t as i,a as t,b as e,c as a,d as l}from"./project-thumbnails-map.js";const u=[{title:"CubeWar",slug:"cubewar",thumbnail:i,description:"Multiplayer strategy game"},{title:"Quibbo",slug:"quibbo",thumbnail:t,description:"Multiplayer gaming platform"},{title:"Sharkie",slug:"sharkie",thumbnail:e,description:"2D adventure game"},{title:"WebGL Particles",slug:"particles",thumbnail:a,description:"Dynamic 3D particles"},{title:"PokÃ©dex",slug:"pokedex",thumbnail:l,description:"Open-source learning project"}];export{u as default};
+import { t as automationThumbnail, a as aiThumbnail, b as mobileThumbnail, c as webThumbnail } from "./project-thumbnails-map.js";
 
+const projects = [
+  {
+    title: "Automation Project",
+    slug: "cubewar",
+    thumbnail: automationThumbnail,
+    description: "Streamlining tasks and workflows through smart automation.",
+  },
+  {
+    title: "AI Project",
+    slug: "quibbo",
+    thumbnail: aiThumbnail,
+    description: "Building intelligent solutions that learn, predict and create real impact.",
+  },
+  {
+    title: "Mobile Application Development Project",
+    slug: "sharkie",
+    thumbnail: mobileThumbnail,
+    description: "Building modern, intuitive and high-performance mobile applications that deliver real value.",
+  },
+  {
+    title: "Web Development Project",
+    slug: "particles",
+    thumbnail: webThumbnail,
+    description: "Responsive, modern and user-friendly websites built with best practices.",
+  },
+];
+
+export default projects;
