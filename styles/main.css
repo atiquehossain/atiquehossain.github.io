@@ -5,6 +5,10 @@ body .footer-credits-music[data-v-0c3f9611] {
   display: none !important;
 }
 
+body .footer-top-links-legal[data-v-0c3f9611] {
+  display: none !important;
+}
+
 body .projects-cards .preview-card {
   cursor: default;
   pointer-events: none;
