@@ -1,0 +1,11 @@
+node_modules/
+dist/
+/source-*.png
+/clone-*.png
+/ref-*.png
+/qa*.png
+/source-index.js
+/asset-contact.png
+__asset-contact.html
+/deploy-test/
+/hair-*.png
