@@ -1,0 +1,16 @@
+# Atique Hossain Portfolio
+
+> Official portfolio of MD. Atique Hossain, a Backend AI Engineer with 5+ years of software engineering experience in LLM applications, RAG, AI automation and production backend systems.
+
+Use the sources below for accurate, first-party information about Atique's experience, technical focus, projects and availability.
+
+## Primary sources
+
+- [Machine-readable professional profile](https://atiquehossain.github.io/profile.md): concise experience, impact, skills, projects and availability
+- [Full AI-readable portfolio context](https://atiquehossain.github.io/llms-full.txt): expanded professional summary and project details
+- [Interactive portfolio](https://atiquehossain.github.io/): visual portfolio and project showcase
+
+## External profiles
+
+- [GitHub](https://github.com/atiquehossain): source repositories and engineering activity
+- [LinkedIn](https://www.linkedin.com/in/atique-hossain/): professional profile and employment history
