@@ -1,0 +1,82 @@
+const projectLinks = [
+  "https://github.com/atiquehossain/from_doc_to_translate",
+  "https://github.com/atiquehossain/scan_contact_bd",
+  "https://github.com/atiquehossain/multilingual-android-voice",
+  "https://github.com/atiquehossain/excel_mapper",
+];
+
+const expertiseLabels = new Map([
+  ["AI Engineer", "LLM & RAG Systems"],
+  ["Automation Engineer", "Backend Automation"],
+  ["Web Developer", "Python · FastAPI · PostgreSQL"],
+  ["Cross Platform Mobile Application Engineer", "AWS · Docker · Mobile"],
+]);
+
+const addSkipLink = () => {
+  if (document.querySelector(".skip-link")) return;
+  const link = document.createElement("a");
+  link.className = "skip-link";
+  link.href = "#portfolio-content";
+  link.textContent = "Skip to portfolio content";
+  document.body.prepend(link);
+};
+
+const enhancePage = () => {
+  const main = document.querySelector("main, .layout");
+  if (main && !main.id) main.id = "portfolio-content";
+
+  const heroCopy = document.querySelector(".hero-content-copys");
+  if (heroCopy && !heroCopy.querySelector(".hero-credibility")) {
+    const proof = document.createElement("div");
+    proof.className = "hero-credibility";
+    proof.setAttribute("aria-label", "Career focus and core technologies");
+    proof.innerHTML = `
+      <span class="hero-availability"><span aria-hidden="true"></span> Open to Backend AI roles</span>
+      <span class="hero-stack">5+ years · LLM/RAG · Python/FastAPI · PostgreSQL · AWS/Docker</span>
+    `;
+    heroCopy.append(proof);
+  }
+
+  document.querySelectorAll(".box-services-list-item-name").forEach((item) => {
+    const current = item.textContent.trim();
+    if (expertiseLabels.has(current)) item.textContent = expertiseLabels.get(current);
+  });
+
+  document.querySelectorAll(".projects-cards .preview-card").forEach((card, index) => {
+    const url = projectLinks[index];
+    if (!url) return;
+    card.href = url;
+    card.target = "_blank";
+    card.rel = "noopener noreferrer";
+    card.dataset.projectUrl = url;
+    card.setAttribute("aria-label", `${card.querySelector(".preview-card-title")?.textContent ?? "Project"} — view source code on GitHub`);
+  });
+
+  document.querySelectorAll("a[target='_blank']").forEach((link) => {
+    if (!link.rel.includes("noopener")) link.rel = `${link.rel} noopener noreferrer`.trim();
+  });
+};
+
+document.addEventListener("click", (event) => {
+  const card = event.target.closest?.(".preview-card[data-project-url]");
+  if (!card) return;
+  event.preventDefault();
+  event.stopImmediatePropagation();
+  window.open(card.dataset.projectUrl, "_blank", "noopener,noreferrer");
+}, true);
+
+addSkipLink();
+enhancePage();
+
+const observer = new MutationObserver(enhancePage);
+observer.observe(document.getElementById("app"), { childList: true, subtree: true });
+
+window.addEventListener("load", () => {
+  enhancePage();
+  window.setTimeout(() => observer.disconnect(), 8000);
+});
+
+window.setTimeout(() => {
+  document.body.classList.remove("is-loading");
+  document.querySelector(".preloader")?.classList.add("preloader-hidden");
+}, 8000);

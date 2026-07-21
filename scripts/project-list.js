@@ -2,28 +2,28 @@ import { t as automationThumbnail, a as aiThumbnail, b as mobileThumbnail, c as 
 
 const projects = [
   {
-    title: "Automation Project",
+    title: "AI Document Translation & QA",
     slug: "cubewar",
     thumbnail: automationThumbnail,
-    description: "Streamlining tasks and workflows through smart automation.",
+    description: "Production-minded translation workflow using NLLB, M2M100 and COMET quality evaluation.",
   },
   {
-    title: "AI Project",
+    title: "Privacy-First Contact Platform",
     slug: "quibbo",
     thumbnail: aiThumbnail,
-    description: "Building intelligent solutions that learn, predict and create real impact.",
+    description: "QR contact platform built with Next.js, PostgreSQL, Prisma, Docker and a Flutter owner app.",
   },
   {
-    title: "Mobile Application Development Project",
+    title: "Multilingual Android Voice",
     slug: "sharkie",
     thumbnail: mobileThumbnail,
-    description: "Building modern, intuitive and high-performance mobile applications that deliver real value.",
+    description: "Reusable Kotlin speech-to-text and text-to-speech framework with multilingual, offline-friendly support.",
   },
   {
-    title: "Web Development Project",
+    title: "Excel-to-App Automation",
     slug: "particles",
     thumbnail: webThumbnail,
-    description: "Responsive, modern and user-friendly websites built with best practices.",
+    description: "Dart and Flutter tooling that converts structured Excel specifications into application models and UI code.",
   },
 ];
 
