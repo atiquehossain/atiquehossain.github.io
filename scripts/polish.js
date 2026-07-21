@@ -31,7 +31,7 @@ const enhancePage = () => {
     proof.className = "hero-credibility";
     proof.setAttribute("aria-label", "Career focus and core technologies");
     proof.innerHTML = `
-      <span class="hero-availability"><span aria-hidden="true"></span> Open to Backend AI roles</span>
+      <span class="hero-availability"><span aria-hidden="true"></span> Open to global Backend AI roles · 1-month notice</span>
       <span class="hero-stack">5+ years · LLM/RAG · Python/FastAPI · PostgreSQL · AWS/Docker</span>
     `;
     heroCopy.append(proof);

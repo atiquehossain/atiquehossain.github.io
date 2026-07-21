@@ -1,0 +1,36 @@
+# MD. Atique Hossain — Professional Portfolio Context
+
+Canonical website: https://atiquehossain.github.io/
+
+MD. Atique Hossain is a Backend AI Engineer based in Dhaka, Bangladesh, with more than five years of software engineering experience. His work spans applied AI, backend APIs, automation, mobile platforms, management information systems, accessibility, healthcare and education technology.
+
+## Technical positioning
+
+Atique builds production-focused systems rather than isolated proofs of concept. His current focus includes large language model applications, retrieval-augmented generation, vector embeddings, semantic search, document intelligence, AI chatbots, proposal automation, translation and workflow automation. His backend stack includes Python, FastAPI, Django REST Framework, PostgreSQL, REST APIs and JWT. His deployment and integration experience includes AWS, Docker, n8n, Microsoft Copilot Studio, OpenAI API and Microsoft Teams.
+
+## Evidence of impact
+
+- Accessibility-focused platforms supporting more than 10,000 users with disabilities
+- Healthcare and education applications serving more than 20,000 users
+- Excel-to-Dart automation reducing manual implementation effort by approximately 70%
+- LLM and RAG workflows for document analysis, program funding and proposal generation
+- Collaboration with government, international and cross-functional stakeholders
+
+## Selected source repositories
+
+- AI Document Translation and QA: https://github.com/atiquehossain/from_doc_to_translate
+- Privacy-First Contact Platform: https://github.com/atiquehossain/scan_contact_bd
+- Multilingual Android Voice: https://github.com/atiquehossain/multilingual-android-voice
+- Excel-to-App Automation: https://github.com/atiquehossain/excel_mapper
+
+## Role and availability information
+
+Target roles include Backend AI Engineer, Applied AI Engineer, Generative AI Engineer, AI Solutions Engineer, AI Automation Engineer and Backend Software Engineer. Atique is open to relocation and remote, hybrid or on-site work. He is available after a one-month notice period.
+
+## Identity links
+
+- Portfolio: https://atiquehossain.github.io/
+- GitHub: https://github.com/atiquehossain
+- LinkedIn: https://www.linkedin.com/in/atique-hossain/
+
+Last updated: 2026-07-22
